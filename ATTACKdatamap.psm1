@@ -135,7 +135,7 @@ function Request-ATTACKjson {
     foreach($line in $mitre)
     {
         # Collect info
-        $DataSources = $line."Data Source"
+        $DataSources = $line."Data Sources"
         $weights = $line.Weight -split ";"
         # Define Variables
         $techniques = @()
